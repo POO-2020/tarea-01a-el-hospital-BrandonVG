@@ -1,4 +1,4 @@
-export default class Fecha{
+export default class Fecha {
     /**
      * @param {number} dia Valor 1..31
      * @param {number} mes Valor 1..12
