@@ -1,6 +1,6 @@
 import Fecha from "./fecha.js"
 import Nombre from "./nombre.js"
-class Paciente{
+export default class Paciente{
     /**
      * 
      * @param {Nombre} Nombre El nombre del paciente 

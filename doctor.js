@@ -1,5 +1,5 @@
 import Nombre from "./nombre.js";
-class Doctor{
+export default class Doctor{
     /**
      * 
      * @param {Nombre} nombre Nombre completo del docor
