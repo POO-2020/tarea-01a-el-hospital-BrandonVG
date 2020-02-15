@@ -3,13 +3,13 @@ import Nombre from "./nombre.js";
 import Doctor from "./doctor.js";
 import Fecha from "./fecha.js";
 import Paciente from "./paciente.js";
-class Cita{
+export default class Cita{
     /**
      * 
      * @param {Fecha} fecha 
      * @param {Tiempo} hora 
-     * @param {Doctor} doctor 
-     * @param {Paciente} paciente 
+     * @param {Nombre} doctor Nombre del doctor
+     * @param {Nombre} paciente nombre del paciente
      */
     constructor(fecha,hora,doctor,paciente){
         this.fecha= fecha;
