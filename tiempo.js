@@ -1,4 +1,9 @@
 class Tiempo{
+    /**
+     * 
+     * @param {number} hora La hora
+     * @param {number} minutos  los minutos
+     */
     constructor(hora,minutos){
         this.periodo=["am","pm"];
         this.hora=hora;
@@ -29,5 +34,7 @@ class Tiempo{
         return (`${this.hora}:${this.minutos}`)
     }
 }
+/*
 var tiempo = new Tiempo(24,55)
 console.log(tiempo.getFormato12())
+*/
